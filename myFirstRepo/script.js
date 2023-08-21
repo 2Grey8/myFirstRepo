@@ -1,3 +1,21 @@
+let title = "project";
+let screens = "Простые, Сложные, Интерактивные";
+let screenPrice = 100;
+let rollback = 28;
+let fullPrice = 250000;
+let adaptive = true;
+
+console.log(typeof (title), typeof (fullPrice), typeof (adaptive));
+console.log(screens.length);
+console.log(screenPrice + " долларов");
+console.log(fullPrice + " рублей");
+
+splitScreens = screens.toLowerCase();
+massiveSplitScreens = splitScreens.split();
+console.log(massiveSplitScreens);
+
+let recoil = fullPrice * (rollback / 100);
+console.log(recoil);
 
 /* 
 
@@ -23,14 +41,3 @@
 
 
 3) Полученный результат возвести в степень 3, используя только 1 оператор (Math.pow не подходит)
-
-
-
-
-4) Вывести в консоль первые 2 цифры полученного числа
-
-
-
-
-5) В отдельном репозитории для усложненных уроков, добавить папку или ветку со вторым уроком в свой репозиторий на GitHub
-*/
