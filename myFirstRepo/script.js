@@ -1,23 +1,3 @@
-let title = "project";
-let screens = "Простые, Сложные, Интерактивные";
-let screenPrice = 100;
-let rollback = 28;
-let fullPrice = 250000;
-let adaptive = true;
-
-console.log(typeof (title), typeof (fullPrice), typeof (adaptive));
-console.log(screens.length);
-console.log(screenPrice + " долларов");
-console.log(fullPrice + " рублей");
-
-splitScreens = screens.toLowerCase();
-massiveSplitScreens = splitScreens.split();
-console.log(massiveSplitScreens);
-
-let recoil = fullPrice * (rollback / 100);
-console.log(recoil);
-
-
 
 /* 
 
