@@ -1,40 +1,25 @@
-let title = "project";
-let screens = "Простые, Сложные, Интерактивные";
-let screenPrice = 100;
-let rollback = 28;
-let fullPrice = 250000;
-let adaptive = true;
+let num = 266219;
+let sum;
 
-console.log(typeof (title), typeof (fullPrice), typeof (adaptive));
-console.log(screens.length);
-console.log(screenPrice + " долларов");
-console.log(fullPrice + " рублей");
+let arr = num.toString().split('');
+console.log(arr);
 
-splitScreens = screens.toLowerCase();
-massiveSplitScreens = splitScreens.split();
-console.log(massiveSplitScreens);
+for (let i = 0; i < arr.length; i++) {
 
-let recoil = fullPrice * (rollback / 100);
-console.log(recoil);
+    let a, b, c, d, e, f;
 
-/* 
+    a = arr[0];
+    b = arr[1];
+    c = arr[2];
+    d = arr[3];
+    e = arr[4];
+    f = arr[5];
 
-Необходимо выполнить в отдельном JS файле, подключенному к отдельной HTML странице
+    sum = a * b * c * d * e * f;
 
+}
 
+console.log(sum);
 
-
-1) Создать переменную num со значением 266219 (тип данных число)
-
-
-
-
-2) Вывести в консоль произведение (умножение) цифр этого числа
-
-Например: число 123, при помощи javaScript получить каждую цифру ( 1, 2, 3 ) и перемножить их. Правильно использовать цикл или методы перебора.
-
-
-
-
-3) Полученный результат возвести в степень 3, используя только 1 оператор (Math.pow не подходит)
-*/
+let pow = sum ** 3;
+console.log(pow);
